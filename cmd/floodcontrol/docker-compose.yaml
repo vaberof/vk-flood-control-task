@@ -10,7 +10,6 @@ services:
     ports:
       - "8000:8000"
 
-  # Service with postgres database container
   # Service with redis database container
   redis-database:
     image: redis:latest
